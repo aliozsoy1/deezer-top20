@@ -9,11 +9,11 @@ const MusicList = () => {
     const fetchMusicData = async () => {
       try {
         // İlk 10 şarkıyı alıyoruz
-        const response1 = await axios.get('/chart?limit=10');
+        const response1 = await axios.get('https://api.deezer.com/chart?limit=10');
         const data1 = response1.data.tracks.data;
         document.title = "Deezer En İyi 20 Şarkı";
         // Sonraki 10 şarkıyı alıyoruz
-        const response2 = await axios.get('/chart?limit=10&index=10');
+        const response2 = await axios.get('https://api.deezer.com/chart?limit=10&index=10');
         const data2 = response2.data.tracks.data;
 
         // İki yanıtı birleştiriyoruz
@@ -29,7 +29,7 @@ const MusicList = () => {
 
   const getSongPageUrl = async (songId) => {
     try {
-      const response = await axios.get(`/track/${songId}`);
+      const response = await axios.get(`https://api.deezer.com/track/${songId}`);
       const songData = response.data;
       if (songData.link) {
         window.open(songData.link, '_blank');
