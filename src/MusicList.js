@@ -43,7 +43,7 @@ const MusicList = () => {
 
   return (
     <div className="music-list"> {/* music-list sınıfı burada */}
-      <h1 className='top-baslik'>En İyi 20 Şarkı</h1>
+      <h1 className='top-baslik'>En İyi 20 Şark</h1>
       <ul className="music-items"> {/* music-items sınıfı burada */}
         {musicData.map((track) => (
           <li key={track.id} className="music-item"> {/* music-item sınıfı burada */}
