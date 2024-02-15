@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/deezer-top20/static/css/main.ac943b48.css",
-    "main.js": "/deezer-top20/static/js/main.17fb1104.js",
+    "main.js": "/deezer-top20/static/js/main.66006967.js",
     "static/js/453.c14a0bfd.chunk.js": "/deezer-top20/static/js/453.c14a0bfd.chunk.js",
     "index.html": "/deezer-top20/index.html",
     "main.ac943b48.css.map": "/deezer-top20/static/css/main.ac943b48.css.map",
-    "main.17fb1104.js.map": "/deezer-top20/static/js/main.17fb1104.js.map",
+    "main.66006967.js.map": "/deezer-top20/static/js/main.66006967.js.map",
     "453.c14a0bfd.chunk.js.map": "/deezer-top20/static/js/453.c14a0bfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac943b48.css",
-    "static/js/main.17fb1104.js"
+    "static/js/main.66006967.js"
   ]
 }
